@@ -24,7 +24,7 @@
     },
     {
       "reference_name": "mv_active_cust_count_by_meeting_segment_vw",
-      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, seg_team_cge_transformed, count(distinct customer_id) as cnt_dstnct_customer_id from  live.bet_raw_data_vw group by meeting_location, meeting_date, seg_team_cge_transformed"
+      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, seg_team_cge_transformed, count(distinct customer_id) as cust_count_distinct from  live.bet_raw_data_vw group by meeting_location, meeting_date, seg_team_cge_transformed"
     }
   ]
   },
@@ -57,7 +57,7 @@
   "dlt_views": [
     {
       "reference_name": "mv_active_cust_count_pmu_by_race_segment_vw",
-      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, cast(race_no as smallint),seg_team_cge_transformed, count(distinct customer_id) as cnt_dstnct_customer_id from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, seg_team_cge_transformed"
+      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, cast(race_no as smallint),seg_team_cge_transformed, count(distinct customer_id) as cust_count_distinct from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, seg_team_cge_transformed"
     }
   ]
   },
@@ -68,7 +68,7 @@
   "dlt_views": [
     {
       "reference_name": "mv_active_cust_count_pmu_by_race_channel_vw",
-      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date,  cast(race_no as smallint),channel, count(distinct customer_id) as cnt_dstnct_customer_id from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, channel"
+      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date,  cast(race_no as smallint),channel, count(distinct customer_id) as cust_count_distinct from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, channel"
     }
   ]
   },
@@ -79,7 +79,7 @@
   "dlt_views": [
     {
       "reference_name": "mv_active_cust_count_pmu_by_race_bet_type_vw",
-      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, cast(race_no as smallint) as race_no,bet_type,fo_flag, count(distinct customer_id) as cnt_dstnct_customer_id from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, bet_type,fo_flag"
+      "sql_condition": "select meeting_location, cast(meeting_date as date) as meeting_date, cast(race_no as smallint) as race_no,bet_type,fo_flag, count(distinct customer_id) as cust_count_distinct from  live.bet_raw_data_vw group by meeting_location, meeting_date,  race_no, bet_type,fo_flag"
     }
   ]
   },
