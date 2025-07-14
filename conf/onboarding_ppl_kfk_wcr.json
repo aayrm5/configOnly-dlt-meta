@@ -56,7 +56,7 @@
         "mergeSchema": "true",
         "includeIngestionTimeAsColumn": "true"
       },
-      "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/dqe/hkjc-kafka-bronze/wcr_bronze_dq_expectations.json",
+      "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/dqe/hkjc-kafka-bronze/wcr_bronze_dq_expectations.json",
       "bronze_database_quarantine_dev": "edap.spd_wagering",
       "bronze_quarantine_table": "kafka_wcr_reject",
       "bronze_quarantine_table_properties": {
@@ -91,7 +91,7 @@
         "overwriteSchema": "false"
       },
       "silver_data_quality_expectations_json_dev": "",
-      "silver_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/wcr_silver_transformations.json",
+      "silver_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/wcr_silver_transformations.json",
       "cdc_apply_changes": {
         "keys": [
           "product_offer_id"
