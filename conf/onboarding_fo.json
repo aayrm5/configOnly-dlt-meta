@@ -32,7 +32,7 @@
     "target_details": {
       "catalog": "edap",
       "schema": "stg_ap",
-      "table": "raw_sb_bet_transactions_fo",
+      "table": "ab_raw_fo",
       "path": "/Volumes/dummy_path_to_file/dlt_meta_gold_schema/gold_volume/data/gold/stores/"
     },
     "target_pii_fields": {
@@ -139,7 +139,7 @@
       "mergeSchema": "true",
       "includeIngestionTimeAsColumn" : "true"
     },
-    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_fo.json",
+    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_fo.json",
     "bronze_database_quarantine_dev": "edap.rej_ap",
     "bronze_quarantine_table": "ab_sb_bet_fo_reject",
     "bronze_quarantine_table_properties": {
@@ -170,14 +170,14 @@
       "mergeSchema": "true",
       "overwriteSchema": "false"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_level1_transformations.json",
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_level1_transformations.json",
     "cdc_apply_changes": 
     {
         "keys": [
-            "TicketId", 
-            "systemCode"
+            "ticket_id", 
+            "system_code"
          ],
-        "sequence_by": "sell_time",
+        "sequence_by": "selling_time",
         "scd_type": "1",
         "apply_as_deletes": "",
         "except_column_list": []
@@ -259,7 +259,7 @@
       "mergeSchema": "true",
       "includeIngestionTimeAsColumn" : "true"
     },
-    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_fo.json",
+    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_fo.json",
     "bronze_database_quarantine_dev": "edap.rej_ap",
     "bronze_quarantine_table": "ab_sb_cancel_fo_reject",
     "bronze_quarantine_table_properties": {

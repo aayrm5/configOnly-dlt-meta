@@ -33,7 +33,7 @@
     "target_details": {
       "catalog": "edap",
       "schema": "stg_ap",
-      "table": "raw_race_transactions_pmu",
+      "table": "ab_raw_pmu",
       "path": "/Volumes/dlt_meta_uc/dlt_meta_gold_schema/gold_volume/data/gold/stores/"
     },
     "target_pii_fields": {
@@ -139,7 +139,7 @@
       "mergeSchema": "true",
       "includeIngestionTimeAsColumn" : "true"
     },
-    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_pmu.json",
+    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_pmu.json",
     "bronze_database_quarantine_dev": "edap.rej_ap",
     "bronze_quarantine_table": "ab_race_pmu_reject",
     "bronze_quarantine_table_properties": {
@@ -170,7 +170,7 @@
       "mergeSchema": "true",
       "overwriteSchema": "false"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_level1_transformations.json",
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_level1_transformations.json",
     "cdc_apply_changes": 
     {
         "keys": [
@@ -178,7 +178,7 @@
             "account_no",
             "ac_tran_no"
          ],
-        "sequence_by": "time_stamp",
+        "sequence_by": "selling_time",
         "scd_type": "1",
         "apply_as_deletes": "",
         "except_column_list": []
@@ -259,7 +259,7 @@
       "mergeSchema": "true",
       "includeIngestionTimeAsColumn" : "true"
     },
-    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_pmu.json",
+    "bronze_data_quality_expectations_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/dqe/hkjc-kafka-bronze/decode_value_valid_json_pmu.json",
     "bronze_database_quarantine_dev": "edap.rej_ap",
     "bronze_quarantine_table": "ab_cancel_pmu_reject",
     "bronze_quarantine_table_properties": {

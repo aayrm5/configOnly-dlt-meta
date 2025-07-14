@@ -24,7 +24,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_level1_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_level1_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -66,7 +66,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -108,7 +108,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -150,7 +150,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -192,7 +192,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -234,7 +234,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -276,7 +276,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -318,7 +318,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
@@ -360,7 +360,7 @@
     "gold_writer_config_options": {
       "mergeSchema": "true"
     },
-    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/aayrm5-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
+    "gold_transformation_json_dev": "file:/Workspace/Users/damanbansal@hkjccorpdev.onmicrosoft.com/configOnly-dlt-meta/conf/transformations/gold_8mvs_transformations.json"
   },
   "flatten_nested_data": "false",
   "column_to_extract": "",
