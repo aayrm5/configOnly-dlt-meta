@@ -33,7 +33,7 @@
     "target_details": {
       "catalog": "edap",
       "schema": "stg_ap",
-      "table": "ab_raw_pmu",
+      "table": "ap_raw_pmu",
       "path": "/Volumes/dlt_meta_uc/dlt_meta_gold_schema/gold_volume/data/gold/stores/"
     },
     "target_pii_fields": {
